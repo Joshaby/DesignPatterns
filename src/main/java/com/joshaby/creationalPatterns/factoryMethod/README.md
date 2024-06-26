@@ -22,4 +22,4 @@ Use o Factory Method quando deseja economizar recursos do sistema reutilizando o
 
 :green_circle: _Princípio aberto/fechado_. Você pode introduzir novos tipos de produtos no programa sem quebrar o código existente.
 
-:red_circle:
+:red_circle: O código pode ser tornar mais complicado, pois você precisa introduzir muitas subclasses novas para implementas o padrão. O melhor cenário é quando você está introduzindo o padrão em uma hierarquia existente de classes criadoras.
