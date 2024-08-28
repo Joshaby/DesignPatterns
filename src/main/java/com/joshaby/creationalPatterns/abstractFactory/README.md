@@ -6,6 +6,12 @@
 
 ![](https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png)
 
+## Exemplo
+
+Este exemplo ilustra como o padrão **Abstract Factory** pode ser usado para criar elemento UI multiplataforma sem ter que ligar o código do cliente às classes UI concretas, enquanto mantém todos os elementos criados consistentes com um sistema operacional escolhido
+
+![](https://refactoring.guru/images/patterns/diagrams/abstract-factory/example.png)
+
 ## Aplicabilidade
 
 Use o Abstract Factory quando seu código precisa trabalhar com diversas famílias de produtos relacionados, mas que vocẽ não quer depender de classes concretas daqueles produtos, eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade.
