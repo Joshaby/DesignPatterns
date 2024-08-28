@@ -6,6 +6,12 @@ Fornece uma interface/método para criar objetos em uma superclasse, mas permite
 
 ![](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
 
+## Exemplo
+
+Este exemplo ilustra como o padrão **Abstract Factory** pode ser usado para criar elemento UI multiplataforma sem ter que ligar o código do cliente às classes UI concretas, enquanto mantém todos os elementos criados consistentes com um sistema operacional escolhido
+
+![](https://refactoring.guru/images/patterns/diagrams/abstract-factory/example.png)
+
 ## Aplicabilidade
 
 Use o Factory Method quando não souber de antemão os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
