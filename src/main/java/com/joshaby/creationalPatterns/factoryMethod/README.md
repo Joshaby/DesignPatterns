@@ -6,6 +6,12 @@ Fornece uma interface/método para criar objetos em uma superclasse, mas permite
 
 ![](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
 
+## Exemplo
+
+Este exemplo ilustra como o **Factory Method** pode ser usado para criar elementos de interface de usuário multiplataforma sem acoplar o código do cliente às classes de UI concretas.
+
+![](https://refactoring.guru/images/patterns/diagrams/factory-method/example.png)
+
 ## Aplicabilidade
 
 Use o Factory Method quando não souber de antemão os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
