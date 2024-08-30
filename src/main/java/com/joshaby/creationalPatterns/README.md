@@ -6,6 +6,6 @@ São 5 padrões:
 
 - [Factory Method](factoryMethod/README.md): Fornece uma interface/método para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 - [Abstract Factory](abstractFactory/README.md): Permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas. 
-- Builder
+- [Builder](builder/README.md): Permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo códio de construção.
 - Prototype
 - Singleton
